@@ -24,5 +24,6 @@ def get_messages():
     global messages
     return jsonify(messages), 200
 
+#run server on port localhost:5000, localhost.
 if __name__ == '__main__':
     app.run(host='0.0.0.0',debug=True, port=5000)
