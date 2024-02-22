@@ -1,63 +1,54 @@
 # privacy-classification-POC
 Proof of concept for a data privacy classification system
 
-Simple overview here
+In many respects, cyber security’s instantiation can be attributed to the requirement to protect sensitive data. It is necessary to safeguard its confidentiality, integrity, and availability. Classified information computer networks/systems are an integral aspect of the management of sensitive data in both the civilian and military sectors. The cyber security space is therefore reliant on these systems to protect assets and information from leaks and attacks. 
+The primary objective of this project was to design and demonstrate a single, functional proof-of-concept multilevel security system for sensitive data. The final system derives inspiration from the onion routing technique used in the Tor network to facilitate multilevel security handling. This report details the successful design and implementation of such a system. This was achieved using python, Jupyter notebooks and flask web servers. 
 
-## Description
 
-An in-depth paragraph about your project and overview of use.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+This project was coded using Python 3.9.1. It is an older but stable release of python. All later released of python will also be compatible with this project. It is recommended to avoid legacy versions of Python (2 and under).
 
-### Installing
+As per the Python documentation, Windows versions 7 or earlier are incompatible. 
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+The only requisite for installing Jupyter notebook 5.7.8, is Python 3.3 or greater. 
+
+It is also recommended to install Jupyter using pip, Pythons package manager. 
+
+The lightweight flask web flask framework should come preinstalled with Python distributions; however, it can also be installed using pip.
+
+
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+Execute the servers one by one first with 
 
-## Help
 
-Any advise for common problems or issues.
 ```
-command to run if program contains helper info
+python <servername>.py
 ```
+Then open the notebooks and run cells from Alice first. The order of the others shouldnt matter
+
+
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Harry Robinson 
+hrobinson@extremelynonlinear.com
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
+
 * 0.1
     * Initial Release
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
-## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
