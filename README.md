@@ -2,7 +2,7 @@
 Proof of concept for a data privacy classification system
 
 In many respects, cyber security’s instantiation can be attributed to the requirement to protect sensitive data. It is necessary to safeguard its confidentiality, integrity, and availability. Classified information computer networks/systems are an integral aspect of the management of sensitive data in both the civilian and military sectors. The cyber security space is therefore reliant on these systems to protect assets and information from leaks and attacks. 
-The primary objective of this project was to design and demonstrate a single, functional proof-of-concept multilevel security system for sensitive data. The final system derives inspiration from the onion routing technique used in the Tor network to facilitate multilevel security handling. This report details the successful design and implementation of such a system. This was achieved using python, Jupyter notebooks and flask web servers. 
+The primary objective of this project was to design and demonstrate a single, functional proof-of-concept multilevel security system for sensitive data. The final system derives inspiration from the onion routing technique used in the Tor network to facilitate multilevel security handling.
 
 
 
